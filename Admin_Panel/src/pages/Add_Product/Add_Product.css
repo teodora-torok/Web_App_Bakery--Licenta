@@ -1,0 +1,65 @@
+#product_category {
+    color: #472f17;
+}
+
+#product_category option {
+    color: #472f17; 
+}
+
+.form-control {
+    background-color: #f1ede1 !important;
+}
+
+
+ .form_container {
+    background-color: #D8C7BF!important; 
+    box-sizing: border-box !important; 
+    border: none !important; 
+    padding: 0 !important; 
+    margin: 0 !important; 
+    width: 100%; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#472f17;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    
+}
+
+
+.general_container, .row, .card {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ .btn-custom {
+    background-color: #f1ede1 !important;  
+    color:#472f17;
+ }
+
+ .btn-custom img {
+    margin-left: 10px; 
+    
+}
+
+.btn-custom:hover {
+     
+    font-size: 18px;  
+    transform: scale(1.05);  
+}
+
+.form_title {
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Add this to your CSS */
+label img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+    opacity: 0.8; /* Slightly reduce opacity */
+    cursor: pointer; /* Optional: change cursor to indicate hover action */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}

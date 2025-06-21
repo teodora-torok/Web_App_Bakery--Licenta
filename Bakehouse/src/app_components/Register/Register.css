@@ -1,0 +1,46 @@
+.signup-container{
+    background-image: url("../../assets/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.register-card {
+    background-color: #fbfbf5;
+}
+
+.register-title{
+    padding: 20px;
+    border-radius: 8px;
+    color:#472f17 !important;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+
+.email-field, .pass-field, .name-field {
+    color: #472f17 !important;
+    letter-spacing: 6px;
+    word-spacing: 8px;
+    font-size: 16px;
+    
+}
+
+.custom-input {
+    background-color: #f1ede1;
+    color: #472f17;
+    letter-spacing: 8px;
+    word-spacing: 8px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D8C7BF;
+}

@@ -1,0 +1,43 @@
+.card-body {
+    color: #472f17;
+    background-color:#D8C7BF ;
+}
+
+/*poza produs*/
+.product-image {
+    background-color: #f1ede1;
+}
+
+/*tot cardul*/
+.card{
+    margin-top: 30px;
+    border: none !important;
+}
+
+/*btn sa vezi product details*/
+.btn.btn-primary.btn-sm{
+    background-color: #f1ede1;  
+    color:#472f17;
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 1.25px;
+    padding: 12px 24px !important;
+    margin-right: 20px;
+    border: none;
+}
+
+.btn.btn-primary.btn-sm:hover{
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+/*btn de adauga produs + */
+.btn.btn-outline-secondary:hover {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btn img:hover {
+    transform: scale(1.1); 
+    transition: 0.3s ease;
+}

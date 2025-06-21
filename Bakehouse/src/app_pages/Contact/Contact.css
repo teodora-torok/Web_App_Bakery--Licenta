@@ -1,0 +1,41 @@
+/*titlu contact us*/
+.font-weight {
+    margin-left: 28px;
+    margin-top: 28px !important;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 5px;
+    color:transparent;
+}
+
+/*casuta completa cu info*/
+.contact-box{
+    margin-right: 180px;
+    margin-top: 75px;
+    background-color: #D8C7BF;
+    border-radius: 16px;
+    
+}
+
+/*poza logo*/
+.img-fluid {
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+/*iconitele mail, location, phone*/
+.mr-3 {
+    margin-right: 28px;
+    margin-left: 28px;
+}
+
+/*nr tel, mail, adresa*/
+.mb-0 {
+    background-color: #f1ede1;
+    border-radius: 13px;
+    padding: 25px;
+    margin-right: 30px;
+    letter-spacing: 10px;
+    word-spacing: 8px;
+    font-size: 20px;
+}

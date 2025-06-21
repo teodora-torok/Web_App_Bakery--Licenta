@@ -1,0 +1,45 @@
+.d-flex {
+    color:#472f17;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.discover-menu-list::-webkit-scrollbar {
+    display: none;
+}
+
+.discover-menu-list {
+    scrollbar-width: none;
+}
+
+.discover-menu-list-item img {
+    cursor: pointer;
+}
+
+.discover-menu-list-item .active {
+    border: 2px solid #D8C7BF;
+    padding: 2px;
+}
+
+.discover-menu-list-item p {
+    color:#472f17;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.scroll-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 11px;
+    color:#D8C7BF;
+    transition: color 0.2s;
+}
+
+.scroll-icon:hover {
+    color: #472f17;
+}
+

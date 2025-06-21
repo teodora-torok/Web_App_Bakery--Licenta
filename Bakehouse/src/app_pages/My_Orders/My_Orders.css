@@ -1,0 +1,63 @@
+.myorders {
+    color:#472f17 !important;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+
+/* Overrides Bootstrap .table styles */
+.table.table_products {
+  background-color: #fbfbf5 !important;
+  border-radius: 8px !important;
+}
+
+.table.table_products thead {
+  background-color: #fbfbf5 !important;
+  border-radius: 8px !important;
+    color:#472f17 !important;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 18px;
+    vertical-align: middle !important;
+}
+
+.table_products th {
+  font-weight: normal !important;
+      vertical-align: middle !important;
+    text-align: center;
+}
+
+
+.table.table_products td,
+.table.table_products th {
+  background-color: #fbfbf5 !important;
+  border-radius: 8px !important;
+}
+
+.table.table_products td{
+    letter-spacing: 3px;
+  word-spacing: 3px;
+  font-size: 15px;
+      padding-top: 20px !important;  /* add top padding */
+    padding-bottom: 20px;          /* balance with some bottom padding */
+    vertical-align: middle;
+        vertical-align: middle !important;
+    text-align: center;
+}
+
+.myorders_card {
+  background-color: #f1ede1 !important;
+    width: 100%;           /* full width of parent/container */
+  max-width: 100vw;      /* don't exceed viewport width */
+  overflow-x: visible;
+  
+}
+
+.table.table_products {
+  table-layout: fixed;
+     /* or any width wider than container */
+  max-width: none; /* override any max-width */
+  width: 100%;  
+}
+
+

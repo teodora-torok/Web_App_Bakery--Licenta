@@ -1,0 +1,58 @@
+/*"category*/
+.form-select {
+    background-color: #f1ede1;
+    color: #472f17 !important;
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 1.25px;
+    
+}
+
+/*tot search barul*/
+.input-group {
+    background-color: #D8C7BF;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+/*search box*/
+.form-control {
+    background-color: #f1ede1;
+    color: #472f17 !important;
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 1.25px;
+}
+
+/*search box input*/
+.form-control::placeholder {
+    color: #472f17 !important ;
+    opacity: 1; 
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 1.25px;
+}
+
+.form-control:focus {
+    background-color: #f1ede1;
+    color: #472f17;
+    border: none;
+    box-shadow: none; 
+}
+
+/*butonu de search*/
+
+.btn:hover {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btn img:hover {
+    transform: scale(1.1); 
+    transition: 0.3s ease;
+}
+
+.btn img {
+    margin-left: 15px;
+}

@@ -1,0 +1,47 @@
+/*categ*/
+.small {
+    background-color: #D8C7BF;
+    color:#472f17;
+    font-size: 16px !important;
+    letter-spacing: 7px;
+    word-spacing: 7px;
+}
+
+/*nume*/
+.display-5{
+letter-spacing: 10px;
+word-spacing: 10px;
+font-size: 30px;
+color:#472f17;
+margin-top: 28px;
+margin-bottom: 28px;
+}
+
+/*pret*/
+.fs-5 {
+    background-color: #D8C7BF;
+    color:#472f17;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+
+/*detalii*/
+.lead {
+    background-color: #f1ede1;
+    color:#472f17;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    margin-top: 25px;
+}
+
+.btn:hover{
+    transform: translateY(-3px); /* Slightly lift the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}

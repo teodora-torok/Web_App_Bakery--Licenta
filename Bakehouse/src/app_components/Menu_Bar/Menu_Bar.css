@@ -1,0 +1,83 @@
+.bakery_logo {
+    margin-right: 25px;
+}
+
+.menubar-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/*nr de la cos*/
+.position-absolute {
+    color: #472f17 !important;
+    background-color: #f1ede1;
+}
+
+/*buton login si create new account*/
+.btn_new_account {
+    background-color: #f1ede1 !important;  
+    color:#472f17;
+    margin-left: 30px;
+    font-size: 21.5px;
+    letter-spacing: 5px;
+    word-spacing: 1.25px;
+    padding: 12px 24px !important;
+    margin-right: 20px;
+}
+
+.btn_new_account:hover {
+    transform: translateY(-3px); /* Slightly lift the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.button_login:hover {
+    transform: translateY(-3px); /* Slightly lift the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/*culoare fundal bara de sus*/
+.container-fluid {
+    background-color: #D8C7BF;
+}
+
+/*home, contact, explore*/
+.navbar-nav .nav-link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color:#472f17;
+    font-size: 18px;
+    letter-spacing: 7px;
+    margin-right: 25px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #472f17;  
+    border-bottom: 2px solid #472f17; 
+  }
+
+
+  /* hover pe img cu cos */
+  .position-relative img:hover {
+    transform: scale(1.1);  
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #f1ede1 !important;
+}
+
+.dropdown-item {
+  cursor: pointer;
+  background-color: #f1ede1 !important;
+  color:#472f17 !important;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f1ede1;
+  color: #472f17;
+  transform: scale(1.03);
+}

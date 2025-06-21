@@ -1,0 +1,47 @@
+
+/*tabel general*/
+.products_table {
+
+  background-color:#f1ede1 ;
+  border: 2px solid #D8C7BF; 
+  border-radius: 15px; 
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/*aranjare spatiere*/
+.products_table th, 
+.products_table td {
+  
+  border: 2px solid #D8C7BF; 
+  padding: 10px;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+}
+
+/*titlul coloanelor*/
+.products_table th {
+
+    color: #472f17;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-size: 23px;
+    font-weight: normal !important;
+    text-transform: none !important;
+}
+
+/*textul din celule tabel*/
+.products_table td {
+    color: #472f17;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+/*img cu delete icon, hover*/
+.delete_icon img:hover {
+    transform: scale(1.4); 
+    opacity: 0.8; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}

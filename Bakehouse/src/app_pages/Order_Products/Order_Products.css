@@ -1,0 +1,43 @@
+.container.checkout {
+    background-color: #f1ede1;
+    border-radius: 8px;
+    margin-top: 75px;
+    padding: 30px;
+}
+
+.checkout input,
+.checkout select,
+.checkout .form-control,
+.checkout .form-select {
+  background-color: #fbfbf5 !important;
+}
+
+.checkout input:focus,
+.checkout select:focus,
+.checkout textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important; 
+  background-color: #fbfbf5 !important; 
+}
+
+.checkout label {
+    color: #472f17;
+    letter-spacing: 8px;
+    word-spacing: 8px;
+    font-size: 18px;
+  }
+
+  .paynow {
+  margin-bottom: 10px;
+  background-color: #D8C7BF !important;
+  color: #472f17 !important;
+  font-size: 21.5px !important;
+  letter-spacing: 5px !important;
+  word-spacing: 1.25px !important;
+  padding: 12px 24px;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 25px !important;
+}
+

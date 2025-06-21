@@ -1,0 +1,14 @@
+.container.py-5 {
+    background-color: #f1ede1;
+    border-radius: 8px;
+    margin-top: 75px;
+    padding: 30px;
+}
+
+.mb-6{
+    color:#472f17;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+

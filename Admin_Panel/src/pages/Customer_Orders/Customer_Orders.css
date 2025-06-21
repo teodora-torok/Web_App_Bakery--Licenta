@@ -1,0 +1,77 @@
+.myorders {
+    color: #472f17 !important;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.table.table_products {
+    background-color: #fbfbf5 !important;
+    border-radius: 8px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: #472f17
+}
+
+.table.table_products thead {
+    background-color: #fbfbf5 !important;
+    border-radius: 8px !important;
+    color: #472f17 !important;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    vertical-align: middle !important;
+}
+
+.table_products th {
+    background-color: #f1ede1 !important;
+    font-weight: normal !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: #472f17;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+
+.table.table_products td,
+.table.table_products th {
+    background-color: #f1ede1 !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: #472f17
+}
+
+.table.table_products td {
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-size: 15px;
+    padding-top: 20px !important;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: #472f17;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.myorders_card {
+    background-color: #D8C7BF !important;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: visible;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: #472f17
+}
+
+.table.table_products {
+    table-layout: fixed;
+    max-width: none;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: #472f17;
+}
+
+.table.table_products {
+  border-collapse: collapse !important; /* Ensure cells merge borders */
+  border-spacing: 0 !important;         /* Remove space between cells */
+}

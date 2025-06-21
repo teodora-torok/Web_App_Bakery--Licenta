@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@stripe/react-stripe-js": "^3.7.0",
+    "@stripe/stripe-js": "^7.3.0",
+    "axios": "^1.8.4",
+    "bootstrap": "^5.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.4.0",
+    "react-toastify": "^11.0.5",
+    "vite": "^6.3.5"
+  }
+}

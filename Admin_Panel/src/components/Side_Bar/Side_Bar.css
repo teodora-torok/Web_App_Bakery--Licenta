@@ -1,0 +1,30 @@
+#sidebar-wrapper {
+    background-color:  #f1ede1 !important;
+}
+
+#sidebar-wrapper .list-group-item {
+    background-color: #f1ede1 !important;
+    border: none; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #472f17;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    
+}
+
+
+#sidebar-wrapper .list-group-item:hover {
+    font-size: 16px;  
+    transform: scale(1.05);
+}
+
+#sidebar-wrapper .logo-container {
+    background-color: #f1ede1!important;
+    padding: 10px; 
+    
+} 
+
+#sidebar-wrapper .list-group-item img {
+    margin-right: 15px; 
+  }
+
